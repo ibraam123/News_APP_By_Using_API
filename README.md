@@ -1,19 +1,25 @@
-# 📱 News App - My Version
+# News App
 
-A modern Flutter-based news application that fetches the latest news articles from an API and presents them in an elegant user interface.
+A Flutter application that displays current news articles from NewsAPI.
 
-## 🚀 Features
+## Features
 
-- 📰 Fetch latest news from an API (e.g., NewsAPI, NY Times API)
-- 🔍 Search for news articles by keywords
-- 📌 Save favorite articles for offline reading
-- 🌙 Light & Dark Mode support
-- 📱 Responsive design for mobile and tablet devices
+- Browse news by categories (business, sports, technology, etc.)
+- Search for specific articles
+- Clean, responsive interface
+- Light and dark theme support
 
-## 🛠️ Technologies Used
+## Tech Stack
 
-- Flutter (Dart)
-- HTTP package (for API requests)
-- Provider (State Management)
-- Hive / Shared Preferences (for local storage)
-- Firebase (for authentication & database - optional)
+- **Flutter** - Mobile framework
+- **Dio** - HTTP client
+- **NewsAPI** - News data source
+- **Provider** - State management
+
+## Getting Started
+
+1. Clone this repository
+2. Add your NewsAPI key in `lib/services/news_service.dart`
+3. Install dependencies:
+   ```bash
+   flutter pub get
